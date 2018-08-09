@@ -9,6 +9,8 @@ test2<-import("PCR product of COXII.fasta") #somehow read in file
 
 summary(test2)
 
+
+## All below this is not working
 test3<-as.data.frame.data.frame(test2)
 head(test3)
 
